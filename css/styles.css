@@ -1,3 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 
+#characterSelect{
+	width: auto;
+	height: 200px;
+	border: solid 2px black;
+}
+
+#characterSelect div{
+	float: left;
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	text-align: center;
+}
