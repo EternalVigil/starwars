@@ -14,3 +14,10 @@
 	height: auto;
 	text-align: center;
 }
+.characterImg{
+	width:25%;
+	height: auto;
+}
+.tiles{
+	border: dashed 1px red;
+}
