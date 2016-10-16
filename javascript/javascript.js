@@ -29,12 +29,14 @@ var characters = [{
 for (var i = 0; i < characters.length; i++) {
 	var selectionTiles = new $("<div>");
 	
-	var charPic = new $("<img>");
-	charPic.attr("src", characters[i].picture);
+	var charPic = $("<img>");
+	charPic.attr("src",characters[i].picture);
+	charPic.attr("class", "charImg");
+	charPic.appendTo(selectionTiles);
+	
 	selectionTiles.attr("id", "char"+i);
 	selectionTiles.addClass("tiles");
 	
-	charPic.appendTo($("char"+i));
 	
 	//selectionTiles.attr("class", "characterPicture");
 	//selectionTiles.append($("<img>",{class:"characterImg" ,src:characters[i].picture}));
